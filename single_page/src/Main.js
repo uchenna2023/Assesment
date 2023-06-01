@@ -1,6 +1,5 @@
 import React from 'react'
 import my from './Assert/my.jpg'
-import nano from './Assert/nano.png'
 import proj2 from './Assert/proj2.png'
 import baby from './Assert/baby.JPG'
 import frd from './Assert/frd.jpg'
@@ -71,11 +70,11 @@ const Main = () => {
                 </div>
                 <div className='friends-image'>
                     <img src={frd} alt=''/>
-                    <p>He is really a cool guy with perseverance in what he loves doing</p>
+                    <p>He loves to code front-end developing is what he enjoys doing day in day out. He's my guy</p>
                 </div>
                 <div className='friends-image'>
                     <img src={frd1} alt=''/>
-                    <p>He is really a cool guy with perseverance in what he loves doing</p>
+                    <p>Most time he hardly interact with us just because of coding a website or web app. The only this that comes out of his mouth is coding things</p>
                 </div>
                 
             </div>
