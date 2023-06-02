@@ -86,7 +86,7 @@
   }
   
   .circle {
-    background-color: rgb(231, 235, 236);
+    background-color: rgb(132, 134, 134);
     border: solid rgb(41, 40, 40) 15px;
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -97,6 +97,8 @@
     left:140px;
     top: 4.5em;
   }
+
+  
   
   .rectangle{
     background-color: rgb(227, 228, 230);
@@ -206,7 +208,6 @@
   
   .icons > * {
     margin: 20px;
-    font-size: 30px;
-    color: aliceblue;
+    width: 50px
   }
   
