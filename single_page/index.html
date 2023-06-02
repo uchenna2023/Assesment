@@ -1,17 +1,27 @@
-import React from 'react'
-import my from './Assert/my.jpg'
-import proj2 from './Assert/proj2.png'
-import baby from './Assert/baby.JPG'
-import frd from './Assert/frd.jpg'
-import frd1 from './Assert/frd1.JPG'
-
-
-const Main = () => {
-  return (
-    <div className='main'>
-        <div className='hero-section'>
-            <div className='cv-details'>
-                <div className='cv-bg'>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <div class='nav-container'>
+            <img src='./Assert/UCHENNA.png'alt=''/>
+            <nav class='nav'>
+                <li>Home</li>
+                <li>About Me</li>
+                <li>Projects</li>
+                <li>Contact Me</li>
+            </nav>
+    </header>
+    <div class='main'>
+        <div class='hero-section'>
+            <div class='cv-details'>
+                <div class='cv-bg'>
                     <h1><span>Uchenna </span>Jude</h1>
                     <h2>React Front-End developer</h2>
                 </div>
@@ -44,43 +54,53 @@ const Main = () => {
                     Maths/Computer Bs.c(ed)							 August/2016
                     Federal University of Agriculture Makurdi</p>
             </div>
-            <div className='hero-image'>
-                <div className='circle'></div>
-                <div className='rectangle'></div>
-                <img src={my} alt=''/>
+            <div class='hero-image'>
+                <div class='circle'></div>
+                <div class='rectangle'></div>
+                <img src='./Assert/my.jpg' alt=''/>
             </div>
         </div>
-        <div className='projects'>
+        <div class='projects'>
             <h2>My Most Recent React Projects</h2>
-            <div className='portfolio'>
-                <div className='portfolio-image'>
-                    <img src={proj2} alt=''/>
+            <div class='portfolio'>
+                <div class='portfolio-image'>
+                    <img src='./Assert/proj2.png' alt=''/>
                 </div>
-                <div className='portfolio-image'>
-                    <img src={proj2} alt=''/>
+                <div class='portfolio-image'>
+                    <img src='./Assert/proj2.png' alt=''/>
                 </div>
             </div>
         </div>
-        <div className='testimonies'>
+        <div class='testimonies'>
             <h2>What my Family and friends has to say</h2>
-            <div className='friends-container'>
-                <div className='friends-image'>
-                    <img src={baby} alt=''/>
+            <div class='friends-container'>
+                <div class='friends-image'>
+                    <img src='./Assert/baby.JPG' alt=''/>
                     <p>He is really a cool guy with perseverance in what he loves doing</p>
                 </div>
-                <div className='friends-image'>
-                    <img src={frd} alt=''/>
+                <div class='friends-image'>
+                    <img src='./Assert/frd.jpg' alt=''/>
                     <p>He loves to code front-end developing is what he enjoys doing day in day out. He's my guy</p>
                 </div>
-                <div className='friends-image'>
-                    <img src={frd1} alt=''/>
+                <div class='friends-image'>
+                    <img src='./Assert/frd1.JPG' alt=''/>
                     <p>Most time he hardly interact with us just because of coding a website or web app. The only this that comes out of his mouth is coding things</p>
                 </div>
                 
             </div>
         </div>
     </div>
-  )
-}
-
-export default Main
+    <div class='footer'>
+        <h2>We deliver our jobs with a touch of professionalism</h2>
+        <h3>Contact Us </h3>
+        <div class='icons'>
+            <ImFacebook2/>
+            <BsInstagram/>
+            <FaTwitterSquare/>
+        </div>
+    </div>
+    <script>
+        src="script.js"
+    </script>
+</body>
+</html>
